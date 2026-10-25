@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Irina Mohorianu</title>
+  <meta name="description" content="Irina Mohorianu – bioinformatics, machine learning and data science.">
+  <style>
+    :root {
+      --bg: #fdfdfc;
+      --text: #1f2328;
+      --muted: #5f6670;
+      --accent: #0b5ea8;
+      --rule: #e3e5e8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16181b;
+        --text: #e6e8eb;
+        --muted: #9aa1aa;
+        --accent: #6cb2f0;
+        --rule: #2c3036;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+    header { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+    header img { width: 128px; height: 128px; border-radius: 50%; object-fit: cover; object-position: 50% 30%; }
+    h1 { margin: 0; font-size: 2rem; line-height: 1.2; }
+    .role { margin: 4px 0 0; color: var(--muted); }
+    .links { margin: 10px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+    h2 {
+      margin: 40px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule);
+      font-size: 1.05rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted);
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul.pubs { padding: 0; list-style: none; }
+    ul.pubs li { margin-bottom: 16px; }
+    .pub-title { font-weight: 600; }
+    .pub-meta { color: var(--muted); font-size: .92rem; }
+    blockquote { margin: 40px 0 0; color: var(--muted); font-style: italic; }
+    footer { margin-top: 48px; font-size: .85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="assets/img/imohorianu.jpg" alt="Irina Mohorianu">
+    <div>
+      <h1>Irina Mohorianu</h1>
+      <p class="role">Professor of Machine Learning and Bioinformatics, MaCSBio, Maastricht University<br>
+        Bye Fellow in Mathematics and Computer Science, King’s College, Cambridge</p>
+      <ul class="links">
+        <li><a href="https://scholar.google.co.uk/citations?user=62xXdPoAAAAJ">Google Scholar</a></li>
+        <li><a href="https://www.researchgate.net/profile/Irina_Mohorianu">ResearchGate</a></li>
+        <li><a href="https://github.com/Core-Bioinformatics">GitHub</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <h2>Biography</h2>
+  <p>My background in Computer Science was streamlined after I finished my BSc in Iasi, Romania, towards Applied Data Science (Bioinformatics). During my PhD I studied small non coding RNAs (sRNAs), first in plants and then in animal systems, too. Soon after completing the first year of post-doc (working on <i>D. melanogaster</i>), I was awarded a BBSRC grant on which I was Researcher Co-I. While working on this project I started to integrate mRNA and sRNA expression and became interested in Gene Regulatory Networks. In parallel I also continued working on developing new methods for the UEA sRNA Workbench.</p>
+  <p>After my post-doc, I was briefly Bioinformatics Lead at the Oxford Vaccine Group (Department of Paediatrics, School of Medical Sciences, Oxford University) and Lecturer in Computer Science at University College, Oxford, teaching Imperative Programming, Algorithms and Machine Learning.</p>
+  <p>At the Cambridge Stem Cell Institute (CSCI) I was Head of Scientific Computing (Head of Bioinformatics) and led a team of Bioinformaticians who supported the CSCI PIs with data analyses and method development. The quest for understanding the intricacies of the underlying GRNs was elevated to a new level, with the analyses of bulk and single cell multi-omics datasets. Integrative analyses were also combined with imaging analyses intertwined with other high throughput measurements. The training component comprised meetings of the Bioinformatics community in CSCI, teaching sessions, and co-supervision of PhD students.</p>
+  <p>I am now Professor of Machine Learning and Bioinformatics at the Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio), Maastricht University, and Bye Fellow in Mathematics and Computer Science at King’s College, Cambridge.</p>
+
+  <h2>Education</h2>
+  <ul>
+    <li>PhD Computer Science – Bioinformatics (2012)</li>
+    <li>BSc Computer Science (2008)</li>
+  </ul>
+
+  <h2>Key publications</h2>
+  <ul class="pubs">
+    <li>
+      <a class="pub-title" href="https://doi.org/10.1093/nar/gkab433">noisyR: Enhancing biological signal in sequencing datasets by characterising random technical noise</a><br>
+      <span class="pub-meta">I. Moutsopoulos, L. Maischak, E. Lauzikaite, S. A. Vasquez Urbina, E. C. Williams, H. G. Drost, I. Mohorianu. <i>Nucleic Acids Research</i> (2021)</span>
+    </li>
+    <li>
+      <a class="pub-title" href="https://doi.org/10.1093/bib/bbac591">bulkAnalyseR: An accessible, interactive pipeline for analysing and sharing bulk multi-modal sequencing data</a><br>
+      <span class="pub-meta">I. Moutsopoulos*, E. C. Williams*, I. Mohorianu. <i>Briefings in Bioinformatics</i> (2022)</span>
+    </li>
+    <li>
+      <a class="pub-title" href="https://doi.org/10.1101/2022.01.31.478592">ClustAssess: tools for assessing the robustness of single-cell clustering</a><br>
+      <span class="pub-meta">A. Shahsavari, A. Munteanu, I. Mohorianu. <i>bioRxiv</i> (2022)</span>
+    </li>
+    <li>
+      <a class="pub-title" href="https://doi.org/10.1038/s41467-025-68003-w">MAGPIE: Spatially resolved integrative analysis of transcriptomic and metabolomic changes in tissue injury studies</a><br>
+      <span class="pub-meta">E. C. Williams, L. Franzén, … J. Y. Tan, I. Mohorianu. <i>Nature Communications</i> (2026)</span>
+    </li>
+    <li>
+      <a class="pub-title" href="https://doi.org/10.64898/2025.12.31.697266">Flufftail: Unveiling gene regulatory network dynamics using fuzzy clustering</a><br>
+      <span class="pub-meta">R. Kollyfas, I. Mohorianu. <i>bioRxiv</i> (2025)</span>
+    </li>
+    <li>
+      <a class="pub-title" href="https://doi.org/10.64898/2026.09.23.753495">Crecerelle: Deep generative embeddings of gene expression and splicing reposition the interpretation of single-cell transcriptomic signatures</a><br>
+      <span class="pub-meta">F.-M. Weberling, I. Ampartzidis, I. Mohorianu, F. Hollfelder. <i>bioRxiv</i> (2026)</span>
+    </li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio)<br>
+    Maastricht University, The Netherlands</p>
+  <p>King’s College<br>
+    University of Cambridge, United Kingdom</p>
+
+  <blockquote>“The truth is rarely pure and never simple.” — Oscar Wilde, <i>The Importance of Being Earnest</i></blockquote>
+</main>
+</body>
+</html>
