@@ -31,6 +31,11 @@ plugins:
   - jekyll-feed
 
 # Exclude from processing.
+exclude:
+  - archive
+  - Gemfile
+  - Gemfile.lock
+
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
